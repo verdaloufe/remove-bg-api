@@ -1,6 +1,7 @@
 from flask import Flask, request, send_file
 from rembg import remove
 import io
+import os
 
 app = Flask(__name__)
 
